@@ -5,6 +5,7 @@ import Counter from './Counter'
 import RefSample from './RefSample';
 import Increment from './Increment';
 import Todo from './todo';
+import HookSample from './hookSample';
 
 function App() {
   const todos = [
@@ -22,6 +23,7 @@ function App() {
       <Increment initialValue={5} />
       {todos.map((todo) => (<Todo todo={todo} />))}
       <Todo todo={5} />
+      <HookSample />
     </div>
   );
 }
