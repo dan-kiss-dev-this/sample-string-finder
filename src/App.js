@@ -9,6 +9,7 @@ import HookSample from './hookSample';
 import Debounce from './debounce'
 import Clipboard from './clipboard';
 import DetectClickOutside from './DetectClickOutside';
+import FocusOnMount from './FocusOnMount';
 
 function App() {
   const todos = [
@@ -30,6 +31,7 @@ function App() {
       <Debounce />
       <Clipboard />
       <DetectClickOutside />
+      <FocusOnMount />
     </div>
   );
 }
