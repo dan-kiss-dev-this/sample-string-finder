@@ -10,6 +10,7 @@ import Debounce from './debounce'
 import Clipboard from './clipboard';
 import DetectClickOutside from './DetectClickOutside';
 import FocusOnMount from './FocusOnMount';
+import Batching from './Batching';
 
 function App() {
   const todos = [
@@ -32,6 +33,7 @@ function App() {
       <Clipboard />
       <DetectClickOutside />
       <FocusOnMount />
+      <Batching />
     </div>
   );
 }
