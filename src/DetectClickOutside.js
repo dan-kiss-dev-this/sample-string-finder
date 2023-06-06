@@ -6,7 +6,9 @@ const DetectClickOutside = () => {
     useEffect(() => {
         const handleClickOutside = (event) => {
             if (!clickMeDivRef?.current?.contains(event.target)) {
-                alert("You clicked outside of me!")
+                console.log("You clicked outside of me!")
+            } else {
+                console.log('You clicked inside of me!')
             }
         }
 
