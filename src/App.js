@@ -7,6 +7,8 @@ import Increment from './Increment';
 import Todo from './todo';
 import HookSample from './hookSample';
 import Debounce from './debounce'
+import Clipboard from './clipboard';
+import DetectClickOutside from './DetectClickOutside';
 
 function App() {
   const todos = [
@@ -26,6 +28,8 @@ function App() {
       <Todo todo={5} />
       <HookSample />
       <Debounce />
+      <Clipboard />
+      <DetectClickOutside />
     </div>
   );
 }
