@@ -6,6 +6,7 @@ import RefSample from './RefSample';
 import Increment from './Increment';
 import Todo from './todo';
 import HookSample from './hookSample';
+import Debounce from './debounce'
 
 function App() {
   const todos = [
@@ -24,6 +25,7 @@ function App() {
       {todos.map((todo) => (<Todo todo={todo} />))}
       <Todo todo={5} />
       <HookSample />
+      <Debounce />
     </div>
   );
 }
