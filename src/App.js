@@ -12,6 +12,7 @@ import FocusOnMount from './FocusOnMount';
 import Batching from './Batching';
 import StyledComponent from './StyledComponent';
 import GetRequest from './GetRequest';
+import PostRequest from './PostRequest';
 
 function App() {
   const todos = [
@@ -38,6 +39,7 @@ function App() {
       <br />
       <StyledComponent />
       <GetRequest />
+      <PostRequest />
     </div>
   );
 }
