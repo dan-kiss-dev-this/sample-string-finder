@@ -11,6 +11,7 @@ import DetectClickOutside from './DetectClickOutside';
 import FocusOnMount from './FocusOnMount';
 import Batching from './Batching';
 import StyledComponent from './StyledComponent';
+import GetRequest from './GetRequest';
 
 function App() {
   const todos = [
@@ -36,6 +37,7 @@ function App() {
       <Batching />
       <br />
       <StyledComponent />
+      <GetRequest />
     </div>
   );
 }
