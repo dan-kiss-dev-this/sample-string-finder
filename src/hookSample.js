@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { useCounter } from './hookCounter'
+import { useCounter } from './HookCounter'
 
 const HookSample = ({ onCountChange = () => { } }) => {
     const { count, increment, decrement } = useCounter()

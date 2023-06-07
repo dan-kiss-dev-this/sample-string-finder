@@ -1,4 +1,4 @@
-import { useCounter } from './hookCounter';
+import { useCounter } from './HookCounter';
 import { act, renderHook } from '@testing-library/react';
 
 describe('Increment', () => {

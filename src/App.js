@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import Finder from './LongStringFinder'
 import Counter from './Counter'
 import RefSample from './RefSample';
 import Increment from './Increment';
-import Todo from './todo';
-import HookSample from './hookSample';
-import Debounce from './debounce'
-import Clipboard from './clipboard';
+import Todo from './Todo';
+import HookSample from './HookSample';
+import Debounce from './Debounce'
+import Clipboard from './Clipboard';
 import DetectClickOutside from './DetectClickOutside';
 import FocusOnMount from './FocusOnMount';
 import Batching from './Batching';
