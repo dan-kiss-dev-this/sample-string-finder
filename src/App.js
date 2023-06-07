@@ -10,6 +10,7 @@ import Clipboard from './Clipboard';
 import DetectClickOutside from './DetectClickOutside';
 import FocusOnMount from './FocusOnMount';
 import Batching from './Batching';
+import StyledComponent from './StyledComponent';
 
 function App() {
   const todos = [
@@ -33,6 +34,8 @@ function App() {
       <DetectClickOutside />
       <FocusOnMount />
       <Batching />
+      <br />
+      <StyledComponent />
     </div>
   );
 }
