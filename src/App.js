@@ -13,6 +13,7 @@ import Batching from './Batching';
 import StyledComponent from './StyledComponent';
 import GetRequest from './GetRequest';
 import PostRequest from './PostRequest';
+import FullTodo from './todo/TodoFull'
 
 function App() {
   const todos = [
@@ -40,6 +41,8 @@ function App() {
       <StyledComponent />
       <GetRequest />
       <PostRequest />
+      <br />
+      <FullTodo />
     </div>
   );
 }
